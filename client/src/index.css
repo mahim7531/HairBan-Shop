@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', sans-serif;
+  color: #3f2b24;
+  background-color: #fdf7f3;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fffaf7 0%, #f7e7df 100%);
+}
+
+* { box-sizing: border-box; }
+
+h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
